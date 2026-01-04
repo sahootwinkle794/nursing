@@ -723,7 +723,7 @@ a.read-btn:hover {
 
 /* announcement section end  */
 /* director section start  */
-.director {
+/* .director {
     background-image: url('../../assets/images/bg-img/layer-1.png');
     background-color: #FFF8F4;
     width: 100%;
@@ -732,7 +732,7 @@ a.read-btn:hover {
     background-repeat: no-repeat;
     padding: 80px 0px;
     padding-top: 0px;
-}
+} */
 
 .police-card.card {
     background-image: url('../../assets/images/bg-img/card-bg.png');
@@ -1072,12 +1072,10 @@ img.rural-img {
 /* annual-report section end  */
 /* tab content style start  */
 .data-tab {
-    background-image: url('../../assets/images/bg-img/tab-bg.png');
+    background-color: #F4F4F4;
     width: 100%;
     height: auto;
-    background-position: left;
-    background-size: cover;
-    background-repeat: no-repeat;
+    
 }
 
 .data-tab {
@@ -1089,27 +1087,35 @@ img.rural-img {
     display: inline-block;
     padding: 15px 48px;
     cursor: pointer;
-    border: 1px solid #674CFF;
+    border: 1px solid #FF7139;
+    background-color: white;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
-
+.tab-name {
+    text-align: center;
+}
 .tab p {
     padding: 0;
     margin: 0;
-    font-weight: 300;
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 28px;
     color: #4D4D4D;
+    font-family: "Raleway", sans-serif;
 }
-
+.tab-content{
+    border-top: 1px solid #FF7139;
+    padding: 20px 100px;
+    margin-top: 0px !important;
+}
 .tab:hover,
 .tab.active:hover {
-    background-image: linear-gradient(to right, #4346E9, #8847C2);
+    background-color: #FF7139;
     color: white;
 }
 
 .tab.active {
-    background-image: linear-gradient(to left, #4346E9, #8847C2);
+    background-color: #FF7139;
     color: white !important;
 }
 
@@ -1131,12 +1137,14 @@ img.rural-img {
 
 .tab-content p {
     margin: 0;
-    line-height: 1.6;
+    line-height: 2.6;
+    font-size: 17px;
 }
 
 .tab-content {
     background-color: transparent;
     box-shadow: none;
+    text-align: center;
 }
 
 .tab-card {
@@ -1159,6 +1167,7 @@ img.rural-img {
 
 .date-card.badge {
     color: black;
+    font-size: 18px;
 }
 
 .card.dashboard-card {
@@ -1247,11 +1256,12 @@ figcaption h5 {
 }
 
 a.viewall-btn {
-    padding: 15px 50px;
+    padding: 15px 77px;
     background-color: black;
     border-radius: 5px;
     text-decoration: none;
     color: white;
+    font-weight: 600;
 }
 
 a.viewall-btn:hover {
