@@ -7,7 +7,7 @@ html {
 
 h3,
 h6,
-p {
+p,.read-btn{
     /* font-family: "Outfit", sans-serif; */
     font-family: "Geist", sans-serif;
 }
@@ -502,15 +502,17 @@ a.nav-link.active {
 
 
 .banner {
-    background-image: url('../../assets/images/hero-banner.png');
+    background-image: url('../../assets/images/bg-img/banner.png');
     background-color: #FFF8F4;
     width: 100%;
     background-size: cover;
-    background-position: left;
+    background-position: bottom;
     background-repeat: no-repeat;
-    padding: 37px 0px;
+    padding: 80px 0px;
 }
-
+.slide-con .owl-nav{
+    display: none;
+}
 .row.banner-row {
     display: flex;
     align-items: center;
@@ -523,11 +525,11 @@ h3.light-txt2 {
 }
 
 .banner-h3 {
-    color: #000;
-    text-align: center;
+    color: white;
     line-height: 1.5;
     letter-spacing: 1px;
     font-weight: 700;
+    font-size: 40px;
 }
 
 .cp-img {
@@ -539,7 +541,7 @@ h3.light-txt2 {
 }
 
 .read-icon {
-    margin-right: 18px;
+    margin-left: 18px;
 }
 
 .banner-p {
@@ -547,6 +549,7 @@ h3.light-txt2 {
     margin: 0;
     margin-top: 10px;
     font-size: 14px;
+    color: white;
 }
 
 .line {
@@ -567,17 +570,19 @@ a.read-btn {
     position: relative;
     display: inline-block;
     padding: 20px 60px;
+    letter-spacing: 3px;
+    font-size: 18px;
     border-radius: 50px;
-    border-top-left-radius: 0px;
-    background: linear-gradient(to right, #FFB464, #F15A29);
+    border-bottom-right-radius: 0; 
+    background: linear-gradient(to right, #FA6C07, #E81A13);
     color: white;
     text-decoration: none;
     z-index: 1;
     overflow: hidden;
     box-shadow: 0 8px 16px rgba(241, 90, 41, 0.3);
-    /* bottom shadow */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 
 /* Gradient border with top-left transparency */
 a.read-btn::before {
@@ -590,8 +595,8 @@ a.read-btn::before {
     border-top-left-radius: 0px;
     background: linear-gradient(135deg,
             transparent 0%,
-            #F15A29 30%,
-            #F15A29 100%);
+            #E81A13 30%,
+            #E81A13 100%);
     -webkit-mask:
         linear-gradient(#fff 0 0) content-box,
         linear-gradient(#fff 0 0);
@@ -611,7 +616,7 @@ a.read-btn:hover {
 
 
 a.read-btn:hover {
-    background: linear-gradient(to right, #F15A29, #FFB464);
+    background: linear-gradient(to left, #E81A13, #FA6C07);
     color: white;
 }
 

@@ -4,9 +4,13 @@ $('.banner-owl-carousel').owlCarousel({
     margin: 10,
     items: 1,
     nav: true,
+    autoplay: true,              // ✅ auto slide
+    autoplayTimeout: 4000,       // ⏱ 4 seconds
+    autoplayHoverPause: true,    // ⏸ pause on hover
     animateOut: 'slideOutUp',
     animateIn: 'slideInUp'
-})
+});
+
 // ------------------------------------------- banner slider end -------------------------------------------
 // ---------------------------------------------------- tab content script start -------------------------------------------
 
