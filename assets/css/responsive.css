@@ -1,0 +1,1048 @@
+@media (min-width: 300px) and (max-width: 750px) {
+    img.logo {
+        width: 81px;
+        height: 81px;
+    }
+
+    .emer-div {
+        display: none !important;
+    }
+
+    .side-button,
+    .search-container {
+        display: none;
+    }
+
+    /* header section start  */
+    .emer-div,
+    .india.me-auto {
+        display: none;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .logo {
+        position: static;
+    }
+
+    .nav-head {
+        padding: 0;
+        ̥
+    }
+
+    .container.nav-con {
+        padding: 0;
+        margin: 0;
+    }
+
+    .slide-con {
+        margin-top: 42px;
+    }
+
+    .banner-owl-carousel .owl-dots {
+        display: none !important;
+    }
+
+    .banner-owl-carousel .owl-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 56px;
+        top: 218px;
+        bottom: 0;
+        transform: translateX(-50%);
+        gap: 0px;
+        z-index: 2;
+    }
+
+    .text {
+        margin-top: 10px;
+    }
+
+    .banner {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+
+    .banner-txt-con {
+        padding-bottom: 0;
+    }
+
+    .button {
+        width: 53px;
+        height: 46px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        cursor: pointer;
+        z-index: 9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        background: #a14334 !important;
+        padding: 11px !important;
+    }
+
+    .citizen img,
+    .annum-report img {
+        width: 100%;
+    }
+
+    .citizen-h3 {
+        font-size: 41px;
+    }
+
+    .col-md-3.citizen-col::after {
+        display: none;
+    }
+
+    .tab {
+        padding: 15px 22px !important;
+    }
+
+    .logo-card img {
+        height: 100px !important;
+    }
+
+    .my-tabs {
+        margin-top: 56px;
+        padding: 15px 2px !important;
+    }
+
+    .my-tab {
+        padding: 15px 30px !important;
+    }
+
+    .circle-shape img {
+        width: 39px;
+        height: 36px;
+    }
+
+    .angled-bar {
+        height: 191px !important;
+    }
+
+    section.gall {
+        margin-bottom: 50px;
+    }
+
+    .col-md-3.citizen-col {
+        margin-top: 20px;
+    }
+
+    .citizen-last {
+        margin-top: 20px !important;
+    }
+
+    .achv-card {
+        margin-bottom: 20px;
+    }
+
+    .police-card.card {
+        margin-bottom: 10px;
+    }
+
+    .announcement-icon {
+        padding: 0 25px;
+        padding-left: 14px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .button span {
+        display: block;
+        height: 3px;
+        width: 100%;
+        background: #ddd;
+        margin: 0;
+    }
+
+    /* header section end  */
+    /* annum section start  */
+    .annum-slider .owl-dots {
+        display: none;
+    }
+
+    .annum-report {
+        padding: 70px 0px !important;
+    }
+
+    img.ann-icon {
+        width: 30% !important;
+    }
+
+    .card.annum-card {
+        padding: 30px !important;
+    }
+
+    /* annum section end  */
+    /* tab section start  */
+    .tab p {
+        font-size: 14px;
+    }
+
+    .tab {
+        padding: 15px 12px;
+    }
+
+    .card-figure {
+        padding: 0px;
+    }
+
+    .row .dashboard-row {
+        margin-top: 10px !important;
+    }
+
+    /* tab section end  */
+    /* social icon start  */
+    .social-div {
+        float: left;
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* social icon end  */
+    .footer .col-md-4:not(:last-child) {
+        border: none;
+    }
+
+    .ft-1 {
+        padding: 12px !important;
+    }
+
+    .footer {
+        padding: 0px;
+    }
+
+    .copy-ul a {
+        font-size: 14px;
+    }
+
+    .copyright span {
+        font-size: 14px;
+    }
+
+}
+
+@media (min-width:751px) and (max-width:950px) {
+    img.logo {
+        width: 81px;
+        height: 81px;
+    }
+
+    .emer-div {
+        display: none !important;
+    }
+
+    .side-button,
+    .search-container {
+        display: none;
+    }
+
+    /* header section start  */
+    .emer-div,
+    .india.me-auto {
+        display: none;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .logo {
+        position: static;
+    }
+
+    .nav-head {
+        padding: 0;
+        ̥
+    }
+
+    .container.nav-con {
+        padding: 0;
+        margin: 0;
+    }
+
+    .slide-con {
+        margin-top: 42px;
+    }
+
+    .banner-owl-carousel .owl-dots {
+        display: none !important;
+    }
+
+    .banner-owl-carousel .owl-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 56px;
+        top: 218px;
+        bottom: 0;
+        transform: translateX(-50%);
+        gap: 0px;
+        z-index: 2;
+    }
+
+    .text {
+        margin-top: 10px;
+    }
+
+    .banner {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+
+    .banner-txt-con {
+        padding-bottom: 0;
+    }
+
+    .button {
+        width: 53px;
+        height: 46px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        cursor: pointer;
+        z-index: 9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        background: #a14334 !important;
+        padding: 11px !important;
+    }
+
+    .citizen img,
+    .annum-report img {
+        width: 100%;
+    }
+
+    .citizen-h3 {
+        font-size: 41px;
+    }
+
+    .col-md-3.citizen-col::after {
+        display: none;
+    }
+
+    .tab {
+        padding: 15px 22px !important;
+    }
+
+    .logo-card img {
+        height: 100px !important;
+    }
+
+    .my-tabs {
+        margin-top: 56px;
+        padding: 15px 2px !important;
+    }
+
+    .my-tab {
+        padding: 15px 30px !important;
+    }
+
+    .circle-shape img {
+        width: 39px;
+        height: 36px;
+    }
+
+    .angled-bar {
+        height: 191px !important;
+    }
+
+    section.gall {
+        margin-bottom: 50px;
+    }
+
+    .col-md-3.citizen-col {
+        margin-top: 20px;
+    }
+
+    .citizen-last {
+        margin-top: 20px !important;
+    }
+
+    .achv-card {
+        margin-bottom: 20px;
+    }
+
+    .police-card.card {
+        margin-bottom: 10px;
+    }
+
+    .announcement-icon {
+        padding: 0 25px;
+        padding-left: 14px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .button span {
+        display: block;
+        height: 3px;
+        width: 100%;
+        background: #ddd;
+        margin: 0;
+    }
+
+    /* header section end  */
+    /* annum section start  */
+    .annum-slider .owl-dots {
+        display: none;
+    }
+
+    .annum-report {
+        padding: 70px 0px !important;
+    }
+
+    img.ann-icon {
+        width: 30% !important;
+    }
+
+    .card.annum-card {
+        padding: 30px !important;
+    }
+
+    /* annum section end  */
+    /* tab section start  */
+    .tab p {
+        font-size: 14px;
+    }
+
+    .tab {
+        padding: 15px 12px;
+    }
+
+    .card-figure {
+        padding: 0px;
+    }
+
+    .row .dashboard-row {
+        margin-top: 10px !important;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .topnav .search-container {
+        float: none;
+    }
+
+    .topnav a,
+    .topnav input[type=text],
+    .topnav .search-container button {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+
+    .topnav input[type=text] {
+        border: 1px solid #ccc;
+    }
+}
+
+@media (max-width: 950px) {
+
+    .navbar3 {
+        position: relative;
+        width: 100%;
+        background-color: #a14334;
+        border-top: 1px solid #F6CECE;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .owl-stage-outer {
+        width: 100% !important;
+        padding: 0 !important;
+        margin-left: 10px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    /* header section start  */
+    .emer-div,
+    .india.me-auto {
+        display: none;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .logo {
+        position: static;
+    }
+
+    .nav-head {
+        padding: 0;
+    }
+
+    .container.nav-con {
+        padding: 0;
+        margin: 0;
+    }
+
+    .slide-con {
+        margin-top: 42px;
+    }
+
+    .banner-owl-carousel .owl-dots {
+        display: none !important;
+    }
+
+    .banner-owl-carousel .owl-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 56px;
+        top: 218px;
+        bottom: 0;
+        transform: translateX(-50%);
+        gap: 0px;
+        z-index: 2;
+    }
+
+    .text {
+        margin-top: 10px;
+    }
+
+    .banner {
+        padding-bottom: 100px;
+    }
+
+    .button {
+        width: 53px;
+        height: 46px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        cursor: pointer;
+        z-index: 9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        background: black;
+        padding: 4px;
+    }
+
+    .button span {
+        display: block;
+        height: 3px;
+        width: 100%;
+        background: #ddd;
+        margin: 0;
+    }
+
+    /* header section end  */
+    /* annum section start  */
+    .annum-slider .owl-dots {
+        display: none;
+    }
+
+    .annum-report {
+        padding: 70px 0px !important;
+    }
+
+    .card.annum-card {
+        padding: 30px;
+    }
+
+    .annum-slider button.owl-prev {
+        background-color: #F15A29 !important;
+        float: left;
+        width: 40px;
+        height: 40px;
+    }
+
+    .annum-slider button.owl-next {
+        background-color: #F15A29 !important;
+        float: left;
+        width: 40px;
+        height: 40px;
+    }
+
+    .annum-slider button.owl-next span {
+        padding: 10px;
+        color: white;
+    }
+
+    .annum-slider button.owl-prev span {
+        padding: 10px;
+        color: white;
+    }
+
+    /* annum section end  */
+    /* tab section start  */
+    .tab p {
+        font-size: 14px;
+    }
+
+    .tab {
+        padding: 15px 12px;
+    }
+
+    .card-figure {
+        padding: 0px;
+    }
+
+    .row .dashboard-row {
+        margin-top: 10px !important;
+    }
+
+    /* tab section end  */
+    /* social icon start  */
+    .social-div {
+        float: left;
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* social icon end  */
+    .footer .col-md-4:not(:last-child) {
+        border: none;
+    }
+
+    .ft-1 {
+        padding: 12px !important;
+    }
+
+    .footer {
+        padding: 0px;
+    }
+
+    .copy-ul a {
+        font-size: 14px;
+    }
+
+    .copyright span {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 951px) and (max-width: 991px) {
+
+    /* header section start  */
+    .emer-div,
+    .india.me-auto {
+        display: none;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .logo {
+        position: static;
+    }
+
+    .nav-head {
+        padding: 0;
+    }
+
+    .container.nav-con {
+        padding: 0;
+        margin: 0;
+    }
+
+    .slide-con {
+        margin-top: 42px;
+    }
+
+    .banner-owl-carousel .owl-dots {
+        display: none !important;
+    }
+
+    .banner-owl-carousel .owl-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 56px;
+        top: 218px;
+        bottom: 0;
+        transform: translateX(-50%);
+        gap: 0px;
+        z-index: 2;
+    }
+
+    .text {
+        margin-top: 10px;
+    }
+
+    .banner {
+        padding-bottom: 100px;
+    }
+
+    .button {
+        width: 53px;
+        height: 46px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        cursor: pointer;
+        z-index: 9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        background: black;
+        padding: 4px;
+    }
+
+    .button span {
+        display: block;
+        height: 3px;
+        width: 100%;
+        background: #ddd;
+        margin: 0;
+    }
+
+    /* header section end  */
+    /* annum section start  */
+    .annum-slider .owl-dots {
+        display: none;
+    }
+
+    .annum-report {
+        padding: 70px;
+    }
+
+    /* annum section end  */
+    .footer {
+        padding: 0px;
+    }
+
+    .copy-ul a {
+        font-size: 14px;
+    }
+
+    .copyright span {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1100px) {
+    .search-container {
+        margin-left: 0px;
+    }
+
+    /* header section start  */
+    .emer-div,
+    .india.me-auto {
+        display: none;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .logo {
+        position: static;
+    }
+
+    .nav-head {
+        padding: 0;
+    }
+
+    .container.nav-con {
+        padding: 0;
+        margin: 0;
+    }
+
+    .slide-con {
+        margin-top: 42px;
+    }
+
+    .banner-owl-carousel .owl-dots {
+        display: none !important;
+    }
+
+    .banner-owl-carousel .owl-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 56px;
+        top: 218px;
+        bottom: 0;
+        transform: translateX(-50%);
+        gap: 0px;
+        z-index: 2;
+    }
+
+    .text {
+        margin-top: 10px;
+    }
+
+    .banner {
+        padding-bottom: 100px;
+    }
+
+    .button {
+        width: 53px;
+        height: 46px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        cursor: pointer;
+        z-index: 9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        background: black;
+        padding: 4px;
+    }
+
+    .button span {
+        display: block;
+        height: 3px;
+        width: 100%;
+        background: #ddd;
+        margin: 0;
+    }
+
+    /* header section end  */
+    /* annum section start  */
+    .annum-slider .owl-dots {
+        display: none;
+    }
+
+    .annum-report {
+        padding: 70px;
+    }
+
+    /* annum section end  */
+    .footer {
+        padding: 0px;
+    }
+
+    .copy-ul a {
+        font-size: 14px;
+    }
+
+    .copyright span {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1101px) and (max-width: 1199px) {
+    .emer-div.col-12.col-lg-auto.mb-3.mb-lg-0 {
+        width: 60%;
+        padding: 0px !important;
+    }
+
+    .logo-card {
+        height: 100px;
+    }
+
+    .angled-bar {
+        height: 285px;
+    }
+
+    .social-shape img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .social-shape {
+        width: 38px;
+        height: 40px;
+    }
+
+    .learn-p {
+        font-size: 9px;
+    }
+
+    .side-button {
+        width: 70%;
+    }
+
+    .search-container button {
+        padding: 9px;
+    }
+
+    .search-container {
+        padding: 0px;
+        padding-left: 10px;
+    }
+
+    .search-container input[type=text] {
+        padding: 0px;
+    }
+
+    #cssmenu>ul>li>a {
+        padding: 9px;
+    }
+
+    .search-container {
+        margin-left: 0px;
+    }
+
+    .logo {
+        width: 11%;
+    }
+
+    .text p {
+        font-size: 12px;
+    }
+
+    #cssmenu>ul>li {
+        margin: 0px !important;
+    }
+
+    #cssmenu>ul>li.has-sub>a {
+        padding-right: 34px;
+    }
+
+    #cssmenu>ul>li>a {
+        letter-spacing: 0;
+        font-size: 10px;
+    }
+
+    .emer-div {
+        padding: 4px 155px;
+        top: 40px;
+    }
+
+    .banner-owl-carousel .owl-nav {
+        left: 13%;
+        top: 276px;
+    }
+
+    .tab p {
+        font-size: 11px;
+    }
+
+    .tab {
+        padding: 15px 35px;
+    }
+
+    .tab-content p {
+        font-size: 14px;
+    }
+
+    .date-card.badge {
+        font-size: 10px;
+    }
+
+    .card-figure {
+        padding: 10px;
+    }
+
+    footer h5 {
+        font-size: 15px;
+    }
+
+    .ft-ul li {
+        font-size: 13px;
+    }
+
+    .logo-card {
+        min-height: 244px;
+    }
+
+    .copy-right {
+        font-size: 9px;
+    }
+
+    .card.annum-card {
+        min-height: 194px;
+    }
+
+    .ann-number {
+        font-size: 18px;
+    }
+
+    .ann-txt {
+        font-size: 14px;
+    }
+
+    .circle {
+        width: 50px;
+        height: 50px;
+    }
+
+    .crl-a img {
+        width: 30px;
+        height: 30px;
+    }
+
+    a.sidebar-a {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .side-button{
+        width: 70%;
+    }
+    .search-container {
+        margin-left: 13px;
+    }
+
+    #cssmenu>ul>li {
+        margin: 0px !important;
+    }
+
+    #cssmenu>ul>li.has-sub>a {
+        padding-right: 52px;
+    }
+
+    #cssmenu>ul>li>a {
+        letter-spacing: 0;
+    }
+
+    .card.annum-card {
+        min-height: 215px;
+    }
+
+    .banner-owl-carousel .owl-nav {
+        top: 328px;
+    }
+
+    .tab p {
+        font-size: 13px;
+    }
+
+    .tab {
+        padding: 15px 44px;
+    }
+
+    .copy-right {
+        font-size: 10px;
+    }
+
+    .logo-card {
+        min-height: 119px;
+    }
+
+    .text p {
+        font-size: 13px;
+    }
+}
