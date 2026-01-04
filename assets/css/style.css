@@ -172,7 +172,9 @@ p {
 .ind-sp {
     margin-right: 10px;
 }
-
+.spects{
+    margin-left: 30px;
+}
 .skip-ul,
 .font-a {
     display: flex;
@@ -323,26 +325,19 @@ a.nav-link.link-dark {
 }
 
 h3.bold-logo {
-    color: black;
+    color: #F24E1E;
+    margin: 0px;
 }
 
 h3.light-logo {
     font-size: 18px !important;
-    font-family: "Poppins", sans-serif;
-    font-weight: 200 !important;
+    font-weight: 300 !important;
     font-style: normal;
 }
 
-.part-line {
-    width: 1.39px;
-    height: 62px;
-    margin: 10px;
-    background-color: #ACA8A3;
-}
-
 .logo-name h3 {
-    font-size: 23px;
-    font-weight: 700;
+    font-size: 30px;
+    font-weight: 600;
     margin-left: 10px;
 }
 
@@ -362,14 +357,6 @@ h3.light-logo {
 .home-a {
     padding-bottom: 0px !important;
 }
-
-.amb-img {
-    border: 2px solid #945029;
-    border-radius: 50px;
-    border-style: dashed;
-    padding: 4px;
-}
-
 .amb-img img {
     width: 75px;
     height: 75px;
