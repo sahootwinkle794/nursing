@@ -120,7 +120,7 @@ $(document).ready(function () {
 $(document).ready(function () {
   $(".gall-sec").slick({
     infinite: true,
-    slidesToShow: 4,
+    slidesToShow: 1,
     slidesToScroll: 1,
     prevArrow: $(".gall-sec-prev"),
     nextArrow: $(".gall-sec-next"),

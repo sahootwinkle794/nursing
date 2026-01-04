@@ -1569,10 +1569,6 @@ footer {
     background-color: #f0f0f0;
 }
 
-.gall-con {
-    padding: 80px;
-}
-
 .gall-text2 {
     opacity: 0;
     transform: translateY(50px);
@@ -1586,8 +1582,8 @@ footer {
 
 .slick-prev.gall-sec-prev,
 .slick-next.gall-sec-next {
-    color: #4D33E0 !important;
-    border: 1px solid #4D33E0 !important;
+    color: #F24E1E !important;
+    border: 1px solid #F24E1E !important;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
@@ -1597,7 +1593,7 @@ footer {
 
 .slick-prev.gall-sec-prev:hover,
 .slick-next.gall-sec-next:hover {
-    background-color: #4D33E0;
+    background-color: #F24E1E;
     color: white !important;
 }
 
@@ -1607,7 +1603,7 @@ div#photos-btn {
 
 .slick-prev.gall-sec-prev {
     position: absolute;
-    left: 15px;
+    left: 0;
     top: 10px;
     padding: 30px;
     /* transform: translateY(-50%); */
@@ -1621,7 +1617,7 @@ div#photos-btn {
 
 .slick-next.gall-sec-next {
     position: absolute;
-    left: 89px;
+    left: 68px;
     top: 10px;
     padding: 30px;
     /* transform: translateY(-50%); */
@@ -1642,9 +1638,35 @@ div#photos-btn {
 }
 
 section.gall {
-    text-align: center;
+    background-image: linear-gradient(to right,#FFE9F1,#b5daec);
+    padding: 80px 0px 140px 0px;
 }
-
+.story-light{
+    font-weight: 300;
+}
+.story-h3{
+    color: #70032F;
+    font-size: 50px;
+    font-weight: 600;
+}
+.profile-img img {
+    width: 163px;
+    height: 163px;
+}
+.profile-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.read-more{
+    color: #8B3D11;
+    text-decoration: none;
+    display: inline-flex;
+}
+.read-more img{
+    margin-left: 10px;
+    margin-top: 3px;
+}
 .article-container3 {
     width: 100%;
     height: 182px;
@@ -1705,13 +1727,14 @@ section.gall-sec.slider.slick-initialized.slick-slider {
 }
 
 .card.gall-card {
-    width: 93% !important;
-    height: 304px;
+    padding: 25px 10px;
+    width: 100%;
+    height: 100%;
     transition: transform 0.3s ease, 0.6s ease;
 }
 
 .card.gall-card:hover {
-    background: linear-gradient(135deg, #2D1F77, #23376D, #0d6efd, #47236d, #33669B);
+    background: linear-gradient(135deg, #f1db967c, #f1db967c, #85e7f0, #85e7f0, #f1db967c);
     background-size: 400% 400%;
     animation: gradientAnimation 5s ease forwards;
     /* transform: scale(1.05);  */
@@ -1735,11 +1758,6 @@ section.gall-sec.slider.slick-initialized.slick-slider {
     color: white;
     background-color: #f15b2977;
 }
-
-.card.gall-card :hover p {
-    color: white;
-}
-
 .gall-span {
     font-weight: 200;
 }
