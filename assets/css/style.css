@@ -722,6 +722,28 @@ a.read-btn:hover {
 }
 
 /* announcement section end  */
+.dir-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.dir-row .col-md-3 {
+    position: relative;
+    padding: 12px 20px;
+}
+
+/* Partition line between each column */
+.dir-row .col-md-3:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 70%;
+    background-color: rgba(230, 70, 21, 0.418);
+}
+
 /* director section start  */
 /* .director {
     background-image: url('../../assets/images/bg-img/layer-1.png');
@@ -1025,9 +1047,45 @@ img.rural-img {
 
 /* director section end  */
 /* annual-report section start  */
-
+/* map start  */
+.objects {
+    position: relative;
+}
+.object-label {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-image: url(../../assets/images/bg-img/Vector.svg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    left: 68%;
+    top: 21%;
+    display: none;
+}
+.wow {
+    /* visibility: visible; */
+    display: none;
+    animation-name: fadeInUp;
+}
+.mayurbhanj {
+    color: #000000;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    font-size: 11px;
+    font-family: inherit;
+    margin-left: -26px;
+    margin-top: 27px;
+    font-weight: 600;
+}
+/* map end  */
 .annum-report {
-    background-image: url('../../assets/images/bg-img/achivment-layer.png');
+    background-image: url('../../assets/images/bg-img/map-bg.png');
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1039,6 +1097,8 @@ img.rural-img {
 
 .annum-report h3 {
     color: white;
+    font-weight: 600;
+    font-size: 50px;
 }
 
 .achv-card {
@@ -1323,7 +1383,7 @@ nav {
 /* inner page banner section end  */
 /* footer section start  */
 footer {
-    background-image: url('../../assets/images/bg-img/footer.png');
+    background-image: url('../../assets/images/bg-img/ft-bg.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1391,12 +1451,6 @@ footer {
     display: flex;
 }
 
-
-.footer .col-md-4 img {
-    margin-bottom: 10px;
-}
-
-
 .h-ln {
     width: 140px;
     height: 2px;
@@ -1415,16 +1469,20 @@ footer {
     width: 100%;
     height: auto;
 }
-
+.light-logo1{
+    color: #FFB68F;
+    font-weight: 200 !important;
+    font-size: 15px !important;
+}
 .social-div {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .social-shape {
     width: 50px;
     height: 50px;
+    margin-right: 10px;
     background-color: rgba(56, 19, 10, 0);
     border: 1px solid white;
     border-radius: 50px;
@@ -1440,13 +1498,49 @@ footer {
 
 /* footer section end  */
 /* copyright section start  */
+.copy-p{
+    font-size: 13px;
+}
+.copy-h6{
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-end;
+}
+.foot-ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0000004b;
+    list-style: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(57, 6, 6);
+}
+.foot-ul li {
+    position: relative;
+    padding: 0 15px;
+}
+
+/* Partition line */
+.foot-ul li:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.599);
+}
 .copy-right {
-    background-color: #251a5ea9;
+    background-color: black;
     color: white;
     padding-top: 16px;
     font-size: 14px;
 }
-
+h6 span.update{
+    font-weight: 200 !important;
+}
 .copy-ul li {
     display: inline;
     margin-right: 20px;
@@ -1932,43 +2026,87 @@ div#vdos-btn {
 }
 
 /* gallery section end  */
-/* footer section start  */
-.client-logo {
-    background-image: url('../../assets/images/bg-img/shape-1.png');
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
+/* story section start  */
+.image-card {
+  position: relative;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  margin-top: 40px;
 }
 
-.angled-bar {
-    position: relative;
-    width: 100%;
-    height: 197px;
-    background: #2f2574;
-    overflow: hidden;
-    padding: 20px 80px;
+/* Image from HTML */
+.image-card img {
+  width: 100%;
+  height: 392px;
+  object-fit: cover;
+  transition: transform 0.6s ease;
 }
 
-.angled-bar::before,
-.angled-bar::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    width: 60px;
-    height: 100%;
-    background: #0c0825;
+/* Red transparent overlay */
+.image-card .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(155, 61, 61, 0.021);
+  transition: background 0.4s ease;
 }
 
-.angled-bar::before {
-    left: -34px;
-    transform: skewX(16deg);
+/* Text content */
+.image-card .content {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  color: #fff;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;   /* LEFT align items */
+  text-align: left;          /* LEFT align text */
 }
 
-.angled-bar::after {
-    right: -37px;
-    transform: skewX(347deg);
+
+.image-card h3 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
 }
 
+.image-card p {
+  margin: 6px 0 12px;
+  font-size: 14px;
+  opacity: 0.9;
+}
 
+.image-card .btn {
+  align-self: flex-start;
+  color: white;
+  padding: 0px;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 500;
+  display: flex;
+  line-height: 9.5px;
+}
+.btn span{
+    margin-right: 10px;
+}
+.image-card .btn:hover{
+    color: #05D1FF;
+}
+img.img-svg{
+    width: 25px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+.image-card:hover img {
+  transform: scale(1.12);
+}
 
-/* footer section end  */
+.image-card:hover .overlay {
+  background: rgba(30, 9, 85, 0.653);
+}
+
+/* story section end  */
