@@ -1094,10 +1094,15 @@
         line-height: 2.6;
         font-size: 13px;
     }
-
+    #cssmenu>ul>li.has-sub>a:before{
+        top: 16px;
+    }
+    #cssmenu>ul>li.has-sub>a:after {
+        top: 19px;
+    }
     #cssmenu>ul>li>a {
         padding: 11px 15px;
-        font-size: 18px;
+        font-size: 14px;
         letter-spacing: 1px;
         text-decoration: none;
         color: black;
@@ -1117,7 +1122,7 @@
     }
 
     #cssmenu>ul>li.has-sub>a {
-        padding-right: 52px;
+        padding-right: 27px;
     }
 
     #cssmenu>ul>li>a {
