@@ -85,7 +85,7 @@ nav {
 
 #cssmenu>ul>li>a {
     padding:15px 10px;
-    font-size: 17px;
+    font-size: 15px;
     letter-spacing: 1px;
     text-decoration: none;
     color: black;
@@ -108,17 +108,17 @@ nav {
 }
 
 #cssmenu>ul>li.has-sub>a {
-    padding-right: 30px;
+    padding-right: 23px;
 }
 
-/* #cssmenu>ul>li.has-sub>a:after {
+#cssmenu>ul>li.has-sub>a:after {
     position: absolute;
     top: 22px;
     right: 11px;
     width: 8px;
     height: 2px;
     display: block;
-    background: black;
+    background: white;
     content: '';
 }
 
@@ -129,22 +129,26 @@ nav {
     display: block;
     width: 2px;
     height: 8px;
-    background: black;
+    background: white;
     content: '';
     -webkit-transition: all .25s ease;
     -ms-transition: all .25s ease;
     transition: all .25s ease;
-} */
+}
 
 #cssmenu>ul>li.has-sub:hover>a:before {
     top: 23px;
     height: 0;
 }
-
+#cssmenu ul ul li{
+    border-bottom: 1px solid white;
+}
 #cssmenu ul ul {
     position: absolute;
     left: -9999px;
-    border: 1px solid rgba(128, 128, 128, 0.548);
+    border: 1px solid rgb(255, 255, 255);
+    z-index: 999 !important;
+    background-color: #0484a1;
 }
 
 #cssmenu ul ul li {
@@ -171,8 +175,8 @@ nav {
 #cssmenu ul ul li a {
     border-bottom: 1px solid rgba(150, 150, 150, 0.15);
     padding: 11px 15px;
-    width: 170px;
-    font-size: 12px;
+    width: 270px;
+    font-size: 14px;
     text-decoration: none;
     color: black;
     font-weight: 400;
