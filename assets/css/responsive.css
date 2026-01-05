@@ -1,4 +1,80 @@
 @media (min-width: 300px) and (max-width: 750px) {
+    .logo-name h3 {
+        font-size: 25px;
+    }
+
+    h3.light-logo {
+        font-size: 15px !important;
+        margin-bottom: 0px;
+    }
+
+    .owl-nav {
+        display: none !important;
+    }
+
+    section#banner-sec {
+        padding-top: 30px !important;
+        padding-bottom: 91px !important;
+    }
+
+    .tab-content {
+        padding: 20px 5px;
+    }
+
+    .annum-report {
+        padding-top: 150px !important;
+    }
+
+    .annum-report h3,
+    .citizen-h3 {
+        font-size: 35px !important;
+        margin-top: 50px;
+    }
+
+    h3.text-center.aos-init.aos-animate {
+        font-size: 35px !important;
+    }
+
+    .media.text-center {
+        margin-top: 111px;
+    }
+
+    .story-h3 {
+        font-size: 35px !important;
+    }
+
+    section.gall {
+        padding-bottom: 40px !important;
+    }
+
+    .foot-ul,
+    .copy-h6 {
+        display: none;
+
+    }
+
+    #cssmenu>ul>li>a {
+        padding: 21px 17px;
+        font-size: 18px;
+        letter-spacing: 1px;
+        text-decoration: none;
+        color: black;
+        font-weight: 400;
+    }
+
+    .home-a {
+        padding: 21px 17px !important;
+    }
+
+
+
+
+
+
+
+
+
+
     img.logo {
         width: 81px;
         height: 81px;
@@ -127,10 +203,6 @@
         height: 191px !important;
     }
 
-    section.gall {
-        margin-bottom: 50px;
-    }
-
     .col-md-3.citizen-col {
         margin-top: 20px;
     }
@@ -169,7 +241,7 @@
     }
 
     .annum-report {
-        padding: 70px 0px !important;
+        padding: 150px 0px !important;
     }
 
     img.ann-icon {
@@ -358,10 +430,6 @@
 
     .angled-bar {
         height: 191px !important;
-    }
-
-    section.gall {
-        margin-bottom: 50px;
     }
 
     .col-md-3.citizen-col {
@@ -999,9 +1067,47 @@
 }
 
 @media (min-width: 1200px) and (max-width: 1399px) {
-    .side-button{
+    .amb-img img {
+        width: 237px;
+        height: 245px;
+    }
+
+    img.img-svg {
+        width: 35px !important;
+        height: 28px !important;
+        margin-bottom: 10px;
+    }
+
+    .image-card img {
+        width: 100%;
+        height: 414px;
+        object-fit: cover;
+        transition: transform 0.6s ease;
+    }
+
+    .copy-p {
+        font-size: 11px;
+    }
+
+    .tab-content p {
+        margin: 0;
+        line-height: 2.6;
+        font-size: 13px;
+    }
+
+    #cssmenu>ul>li>a {
+        padding: 11px 15px;
+        font-size: 18px;
+        letter-spacing: 1px;
+        text-decoration: none;
+        color: black;
+        font-weight: 400;
+    }
+
+    .side-button {
         width: 70%;
     }
+
     .search-container {
         margin-left: 13px;
     }
